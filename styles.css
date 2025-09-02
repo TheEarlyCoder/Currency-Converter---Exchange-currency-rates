@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    font-family: "Poppins" , sans-serif;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1,h2 {
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+     font-size: 25px;
+     margin-bottom: 23px;
+}
+
+.container form input[type = 'number'] , select {
+     font-size: 25px;
+     margin-bottom: 23px;
+     width: 23vw;
+}
+
+footer {
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0px 23px;
+    
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: none;
+    color: rgb(75, 249, 255);
+    transition: all;
+    transition-duration: 200ms;
+}
+
+
+nav {
+    font-family: "Raleway" , sans-serif;
+    font-weight: 500;
+    display: flex;
+    background-color: #EBD9D1;
+    padding: 23px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+}
+
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    background-color: #AE75DA;
+    border: 0;
+    border-radius: 13px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+table {
+    width:50vw;
+    text-align: center;
+}
+
+.output {
+    display: none;
+}

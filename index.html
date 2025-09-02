@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Project</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+
+        <div class="logo">Currency-Converter</div>
+
+        <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+
+        <h1> Choose a curreny to convert </h1>
+    
+    <form method="post"> 
+
+        <label for="currency">Choose a currency: </label>
+            
+    <select name="currency">
+
+    <option value="INR">Indian Rupee</option>
+    <option value="USD">US Dollar</option>
+    <option value="EUR">Euro</option>
+
+    </select>
+
+    <label for="quantity">Enter the amount</label>
+
+    <input type="number" name="quantity" min="1">
+
+    <button class = "btn" type="submit">Submit</button>
+</form>
+
+<div class="output">
+    <h2>Here is your amount in converted currencies </h2>
+    <table>
+    <thead>
+        <tr>
+            <th>Currency</th>
+            <th>Currency Code</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+</div>
+    </div>
+
+    <footer>
+        Copyright &copy ;All Rights Reserved
+    </footer>
+    
+    <script src = "index.js" charset="UTF-8"></script>
+</body>
+</html>
